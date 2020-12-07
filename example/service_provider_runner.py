@@ -18,9 +18,6 @@ while True:
     if policy_stable:
         break
 
-print(policy)
 
-print(state_values)
-
-np.save('policy.npy', policy)
-np.save('state_values.npy',state_values)
+np.save('policy_punish6.npy', policy)
+np.save('state_values_punish6.npy',state_values)

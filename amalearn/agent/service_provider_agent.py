@@ -17,7 +17,7 @@ class ServiceProviderAgent(AgentBase):
         self.discount_factor = .9
         self.theta = 1e-1
         self.reward_per_customer = 10
-        self.punish_per_transfer = 2
+        self.punish_per_transfer = 6
         self.actions = np.arange(- self.max_transfer, self.max_transfer + 1)
         self.poisson_upper_bound = 10
         self.poisson_cache = dict()
